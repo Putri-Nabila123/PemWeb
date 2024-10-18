@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.header h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+    font-size: 36px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.content {
+    background-color: #4b0000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+.content h2 {
+    font-family: 'Ibarra Real Nova', serif; /* Update font to Ibarra Real Nova */
+    font-size: 48px;
+    margin: 0;
+}
+.content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.content img {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+.description {
+    text-align: center; /* Center align the description text */
+    margin: 20px auto;
+    max-width: 600px;
+}
+.description p {
+    margin: 10px 0;
+}
+.button {
+    background-color: #C88788;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #4b0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer .location, .footer .contact {
+    margin: 10px 0;
+}
+.footer .copyright {
+    margin-top: 20px;
+}
